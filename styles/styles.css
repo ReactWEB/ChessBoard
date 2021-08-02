@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  width: 100vw;
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  min-width: 320px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 1.10;
+  font-family: raleway-example, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.wrapper {
+  border: 2px solid #000;
+  height: 650px;
+  width: 650px;
+  margin-left: 22%;
+}
+
+.inner {
+  border: 2px solid #000;  
+  height: 610px;
+  width: 610px;
+  margin: 15px;
+  border-spacing: 0;
+  border-collapse: collapse;  
+  text-align: center; 
+  background-color: #eee;
+  display: inline-block;  
+}
+
+.inner tr td {
+  border: 1px solid; 
+  width: 66px; 
+  height: 66px; 
+  text-align: center; 
+  vertical-align: middle; 
+  background: #b58863;  
+ }
+.inner tr:nth-child(odd) td:nth-child(even) {
+  background: #f0d9b5;
+ }
+.inner tr:nth-child(even) td:nth-child(odd) {
+  background: #f0d9b5;
+ }
+ 
